@@ -1,0 +1,10 @@
+digraph G {
+	
+	node [fontname="Helvetica-Bold",shape = circle];
+	rankdir=RL;
+	ranksep=1;
+
+	OFF -> ON [fontname="Helvetica-Bold",tailport=nw, headport=ne,style=bold,label="PUSH DOWN"];
+ 	ON -> OFF [fontname="Helvetica-Bold",tailport=se, headport=sw,weight=2,style=bold,label="PUSH UP"];
+  
+}

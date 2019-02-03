@@ -1,0 +1,20 @@
+digraph G {
+
+	node [fontname="Helvetica-Bold",shape = circle];
+        rankdir=LR;
+        ranksep=1;
+
+	c [label=""]
+	a [label=""]
+	n [label=""]
+	t [label=""]
+	o [label=""]	
+	x [label="", peripheries=2]
+
+       	c -> a [fontname="Helvetica-Bold",style=bold,label="c"];
+       	a -> n [fontname="Helvetica-Bold",style=bold,label="n"];
+	n -> t [fontname="Helvetica-Bold",style=bold,label="a"];
+     	t -> o [fontname="Helvetica-Bold",style=bold,label="t"];
+	o -> x [fontname="Helvetica-Bold",style=bold,label="o"];
+	
+}

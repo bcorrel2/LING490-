@@ -1,0 +1,6 @@
+digraph G {
+
+        0 -> 25 [style=bold,label="Q"];
+        
+}
+

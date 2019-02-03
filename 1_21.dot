@@ -1,0 +1,26 @@
+digraph G {
+
+	node [fontname="Helvetica-Bold",shape = circle];
+        rankdir=LR;
+        ranksep=1;
+
+        c [label=""]
+        l [label=""]
+        e [label=""]
+        a [label=""]
+        r [label=""]
+        x [label="", peripheries=2]
+	v [label=""]
+        r [label=""]
+
+        c -> l [tailport=e,headport=w,fontname="Helvetica-Bold",style=bold,label="c"];
+        l -> e [tailport=e,headport=w,fontname="Helvetica-Bold",style=bold,label="l"];
+        e -> a [tailport=e,headport=w,fontname="Helvetica-Bold",style=bold,label="e"];
+        a -> r [tailport=e,headport=w,fontname="Helvetica-Bold",style=bold,label="a"];
+        r -> x [tailport=e,headport=w,fontname="Helvetica-Bold",style=bold,label="r"];
+
+	c -> a [tailport=se,headport=sw,fontname="Helvetica-Bold",style=bold,label="e"];
+        a -> v [tailport=se,headport=nw,fontname="Helvetica-Bold",style=bold,label="v"];
+        v -> r [tailport=ne,headport=sw,fontname="Helvetica-Bold",style=bold,label="e"];
+
+}

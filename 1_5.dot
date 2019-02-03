@@ -1,0 +1,13 @@
+digraph G {
+
+	node [fontname="Helvetica-Bold",shape = circle];
+        rankdir=LR;
+        ranksep=0.75;
+
+        OFF -> LOW [fontname="Helvetica-Bold",tailport=ne, headport=nw,style=bold,label="RIGHT"];
+        LOW -> MED [fontname="Helvetica-Bold",tailport=ne, headport=nw,style=bold,label="RIGHT"];
+        MED -> HIGH [fontname="Helvetica-Bold",tailport=ne, headport=nw,style=bold,label="RIGHT"];
+        HIGH -> OFF [fontname="Helvetica-Bold",tailport=s, headport=s,style=bold,label="RIGHT"];
+ 
+}
+
